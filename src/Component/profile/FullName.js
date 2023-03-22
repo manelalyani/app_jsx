@@ -1,10 +1,18 @@
 import React from 'react';
-function Full_name (){
+function FullName (){
 return (
   <div className="Full_name">
-   
-        <h1>my name is alyani manel</h1>
+   <form>
+  <label>
+   Fisrt name:
+    <input type="text" name="first name" />
+  </label><br/>
+  <label>
+    Last name:
+  <input type="text" name="last name"/>
+  </label>
+</form>
   </div>
 );}
 
-export default Fullname;
+export default FullName;
