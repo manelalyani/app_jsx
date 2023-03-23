@@ -1,8 +1,9 @@
 import React from 'react';
+import './adress.css';
 function Address() {
     return (
         
-        <form>
+        <form className='form1'>
             <h1> my contact is </h1>
             <input name="address" placeholder="Address" type="text" /><br/>
             <input name="unit" placeholder="Unit number" type="text" /><br/>
